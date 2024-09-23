@@ -1,0 +1,72 @@
+.tab-bar.data-v-0e399a7b {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.tab.data-v-0e399a7b {
+  text-align: center;
+  width: 30vw;
+  font-size: 18px;
+}
+.tab.active.data-v-0e399a7b {
+  color: #88B9F3;
+}
+.tab .icon.data-v-0e399a7b {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.center.data-v-0e399a7b {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.center .icon.data-v-0e399a7b {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 8px;
+}
+.label.data-v-0e399a7b {
+  margin-top: -4px;
+}
+.desig-popup .title.data-v-0e399a7b {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666;
+  margin: 10px 0 20px;
+}
+.desig-popup .title .close-btn.data-v-0e399a7b {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-size: 24px;
+  color: #999;
+  line-height: 1;
+  padding: 0 10px;
+}
+.desig-popup .select-types.data-v-0e399a7b {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.desig-popup .type-img.data-v-0e399a7b {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}

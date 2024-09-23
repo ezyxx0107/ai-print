@@ -1,0 +1,1 @@
+ v<view class="mine"> mine page <tabbar wx:if="{{a}}" u-i="4aaf1def-0" bind:__l="__l" u-p="{{a}}"/></view>

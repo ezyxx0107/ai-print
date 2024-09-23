@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "智绘定制",
+  "usingComponents": {
+    "tabbar": "../../components/tabbar/index"
+  }
+}
