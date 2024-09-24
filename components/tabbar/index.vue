@@ -30,9 +30,8 @@
 </template>
 
 <script>
-	import { DESIGN_TYPES } from '@/common/js/constant.js'
+	import { CUSTOM_DESIGN_PATH, DESIGN_TYPES } from '@/common/js/constant.js'
 
-	const CUSTOM_DESIGN_PATH = '/pages/custom-design/index'
 
 
 	export default{

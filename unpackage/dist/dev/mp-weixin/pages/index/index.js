@@ -13,7 +13,7 @@ const _sfc_main = {
       bannerImg: "/static/banner-img.png",
       goods: [
         {
-          id: 1,
+          id: "",
           title: "黑色T恤 小绵羊 短袖",
           cover: "/static/tshirt-img.jpeg",
           profile: "/static/nav-car-active-icon.png",
@@ -58,7 +58,7 @@ const _sfc_main = {
     },
     handleDesign(item) {
       common_vendor.index.navigateTo({
-        url: `${CUSTOM_DESIGN_PATH}?id=${item.id}`
+        url: `${common_js_constant.DETAIL_PATH}?id=${item.id}`
       });
     }
   }

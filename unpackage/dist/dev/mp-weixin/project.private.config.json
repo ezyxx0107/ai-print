@@ -3,5 +3,25 @@
   "projectname": "ai-print",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/goods-detail/index",
+          "pathName": "pages/goods-detail/index",
+          "query": "id=11",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/goods-detail/index",
+          "pathName": "pages/goods-detail/index",
+          "query": "id=",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

@@ -1,7 +1,6 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
 const common_js_constant = require("../../common/js/constant.js");
-const CUSTOM_DESIGN_PATH = "/pages/custom-design/index";
 const _sfc_main = {
   name: "Tabbar",
   props: {
@@ -22,7 +21,7 @@ const _sfc_main = {
           isTab: true
         },
         {
-          path: CUSTOM_DESIGN_PATH,
+          path: common_js_constant.CUSTOM_DESIGN_PATH,
           defaultIcon: "/static/nav-car-icon.png",
           activeIcon: "/static/nav-car-active-icon.png",
           label: "定制",
@@ -58,7 +57,7 @@ const _sfc_main = {
     },
     handleTurnDesignPage(item) {
       common_vendor.index.navigateTo({
-        url: `${CUSTOM_DESIGN_PATH}?type=${item.value}`
+        url: `${common_js_constant.CUSTOM_DESIGN_PATH}?type=${item.value}`
       });
     }
   }

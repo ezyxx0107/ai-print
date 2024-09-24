@@ -1,5 +1,5 @@
 <template>
-	v<view class="mine">
+	<view class="mine">
 		mine page
 		
 		<Tabbar activeKey="mine" />
@@ -7,9 +7,10 @@
 </template>
 
 <script>
-	import Tabbar from '../../components/tabbar';
+	import Tabbar from '@/components/tabbar';
 	
 	export default {
+		name: 'Mine',
 		components: {
 			Tabbar
 		}

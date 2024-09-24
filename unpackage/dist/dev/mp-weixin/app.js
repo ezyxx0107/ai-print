@@ -5,6 +5,8 @@ if (!Math) {
   "./pages/index/index.js";
   "./pages/custom-design/index.js";
   "./pages/mine/index.js";
+  "./pages/goods-detail/index.js";
+  "./pages/pay/index.js";
 }
 const _sfc_main = {
   onLaunch: function() {

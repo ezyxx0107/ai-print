@@ -35,7 +35,7 @@
 </template>
 
 <script>
-	import { DESIGN_TYPES } from '@/common/js/constant.js'
+	import { DETAIL_PATH, DESIGN_TYPES } from '@/common/js/constant.js'
 	import Tabbar from '@/components/tabbar';
 	
 	export default {
@@ -49,11 +49,11 @@
 				bannerImg: '/static/banner-img.png',
 				goods: [
 					{
-						id: 1,
+						id: '',
 						title: '黑色T恤 小绵羊 短袖',
 						cover: '/static/tshirt-img.jpeg',
 						profile: '/static/nav-car-active-icon.png',
-							nickname: '我家都是小星星呀创作',
+						nickname: '我家都是小星星呀创作',
 					},
 					{
 						id: 11,
@@ -92,19 +92,25 @@
 		methods: {
 			handleType(type) {
 				// uni.request({
-				// 	url: '', //仅为示例，并非真实接口地址。
+				// 	url: '',
 				// 	data: {
 				// 		type: type.value
 				// 	},
 				// 	success: (res) => {
 				// 		console.log(res.data);
-				// 	}
+				// 	},
+				// fail: (error)=>{
+					// 	uni.showToast({
+					// 		title: error.msg,
+					// 		icon: 'fail'
+					// 	})
+					// }
 				// });
 
 			},
 			handleDesign(item) {
 				uni.navigateTo({
-					url: `${CUSTOM_DESIGN_PATH}?id=${item.id}`
+					url: `${DETAIL_PATH}?id=${item.id}`
 				})
 			}
 		}
