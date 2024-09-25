@@ -100,11 +100,11 @@
 				// 		console.log(res.data);
 				// 	},
 				// fail: (error)=>{
-					// 	uni.showToast({
-					// 		title: error.msg,
-					// 		icon: 'fail'
-					// 	})
-					// }
+				// 	uni.showToast({
+				// 		title: error.msg,
+				// 		icon: 'fail'
+				// 	})
+				// }
 				// });
 
 			},

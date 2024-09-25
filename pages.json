@@ -27,7 +27,7 @@
 		{
 			"path": "pages/pay/index",
 			"style": {
-				"navigationBarTitleText": "支付页面"
+				"navigationBarTitleText": "支付界面"
 			}
 		}
 	],
