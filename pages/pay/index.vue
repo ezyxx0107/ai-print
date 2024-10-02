@@ -136,8 +136,8 @@ export default {
 	width: 80vw;
 	margin: 20px auto 30px;
 	font-size: 16px;
-	line-height: 36px;
-	height: 36px;
+	line-height: 42px;
+	height: 42px;
 	text-align: center;
 }
 </style>
