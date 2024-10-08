@@ -89,7 +89,24 @@
 		onPageScroll(arg) {
 			console.log(arg);
 		},
+		created () {
+			this.getBanner();
+		},
 		methods: {
+			getBanner() {
+				// uni.request({
+				// 	url: '',
+				// 	success: (res) => {
+				// 		this.bannerImg = res.data;
+				// 	},
+				// fail: (error)=>{
+				// 	uni.showToast({
+				// 		title: error.msg,
+				// 		icon: 'fail'
+				// 	})
+				// }
+				// });
+			},
 			handleType(type) {
 				// uni.request({
 				// 	url: '',
@@ -190,7 +207,7 @@
 				white-space: nowrap;
 				font-size: 12px;
 				color: #999;
-				width: 20vw;
+				width: 19vw;
 			}
 			.design-btn{
 				background: linear-gradient(to right, rgb(129,143,250), rgb(192,199,255));

@@ -53,7 +53,12 @@ const _sfc_main = {
   onPageScroll(arg) {
     console.log(arg);
   },
+  created() {
+    this.getBanner();
+  },
   methods: {
+    getBanner() {
+    },
     handleType(type) {
     },
     handleDesign(item) {
