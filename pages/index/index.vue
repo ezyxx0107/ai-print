@@ -60,7 +60,7 @@
 						title: '黑色T恤 小绵羊小绵羊小绵羊小绵羊 短袖',
 						cover: '/static/tshirt-img.jpeg',
 						profile: '/static/nav-car-active-icon.png',
-							nickname: '我家都是小星星呀创作',
+						nickname: '我家都是小星星呀创作',
 					},
 					{
 						id: 2,

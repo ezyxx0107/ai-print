@@ -121,24 +121,24 @@
 			height: 30px;
 		}
 	}
-	.center {
-		width: 80px;
-		height: 80px;
-		border-radius: 50%;
-		padding: 10px;
-		box-sizing: border-box;
-		background-color: #fff;		
-		position: absolute;
-		top: -20px;
-		left: 50%;
-		transform: translateX(-50%);
-		z-index: -1;
-		.icon {
-			width: 40px;
-			height: 40px;
-			padding-bottom: 8px;
-		}
-	}
+	// .center {
+	// 	width: 80px;
+	// 	height: 80px;
+	// 	border-radius: 50%;
+	// 	padding: 10px;
+	// 	box-sizing: border-box;
+	// 	background-color: #fff;		
+	// 	position: absolute;
+	// 	top: -20px;
+	// 	left: 50%;
+	// 	transform: translateX(-50%);
+	// 	z-index: -1;
+	// 	.icon {
+	// 		width: 40px;
+	// 		height: 40px;
+	// 		padding-bottom: 8px;
+	// 	}
+	// }
 	.label {
 		margin-top: -4px;
 	}

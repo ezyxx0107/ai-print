@@ -1,0 +1,15 @@
+.slide-menu.data-v-9f8172dd {
+  background: linear-gradient(to bottom, #a5aef9, #8179ef);
+  height: 100vh;
+  padding-left: 30px;
+  color: #fff;
+}
+.slide-menu .menu.data-v-9f8172dd {
+  padding-top: 20vh;
+  line-height: 2.6;
+}
+.slide-menu .operations.data-v-9f8172dd {
+  margin-top: 20vh;
+  line-height: 5;
+  font-size: 12px;
+}
