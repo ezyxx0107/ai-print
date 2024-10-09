@@ -199,6 +199,8 @@ const _sfc_main = {
     },
     handleBack() {
       this.$refs.searchPopup.close();
+      this.collapseVisible = true;
+      this.templateListVisible = false;
     },
     handleSearch(e) {
       console.log(e);
